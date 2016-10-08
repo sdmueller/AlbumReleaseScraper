@@ -1,0 +1,10 @@
+*.pyc
+*egg-info
+env
+venv
+build
+dist
+.idea
+Thumbs.db
+/scrapy.iml
+scrapinghub.yml
