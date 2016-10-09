@@ -1,0 +1,21 @@
+<body>
+  <div class="container">
+    <header>
+      <h1>Album Releases</h1>
+      {{> updateReleases}}
+      {{> loginButtons}}
+    </header>
+
+    <ul>
+      {{#each releases}}
+        {{> release}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+
+<template name="updateReleases">
+  <p>
+    <button class="updateButton">Update</button>
+  </p>
+</template> 
